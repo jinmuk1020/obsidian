@@ -1,0 +1,9 @@
+.trash/
+.uv-cache/
+.notebooklm-export/
+
+*.log
+*.err.log
+
+.DS_Store
+Thumbs.db

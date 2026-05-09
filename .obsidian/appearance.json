@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "bateman",
+    "Seamless Bone White",
+    "Line Height and Letter Spacing"
+  ],
+  "interfaceFontFamily": "IBM Plex Mono",
+  "textFontFamily": "IBM Plex Mono",
+  "monospaceFontFamily": "IBM Plex Mono"
+}

@@ -1,0 +1,41 @@
+/* 모든 배경을 에그쉘 화이트로 강제 통일 */
+:root {
+    --background-primary: #fdfbf7 !important;
+    --background-secondary: #fdfbf7 !important;
+    --background-secondary-alt: #fdfbf7 !important;
+    --titlebar-background: #fdfbf7 !important;
+    --titlebar-background-focused: #fdfbf7 !important;
+    
+    /* 경계선 제거 */
+    --divider-color: transparent !important;
+    --nav-item-background-active: #f5f2ed !important; /* 선택된 파일만 살짝 티나게 */
+}
+
+/* 왼쪽 리본 바 강제 고정 */
+.side-dock-ribbon {
+    background-color: #fdfbf7 !important;
+    border-right: none !important;
+}
+
+/* 사이드바(파일 탐색기) 배경 강제 고정 */
+.nav-folder-container, .nav-files-container, .workspace-split.mod-left-split {
+    background-color: #fdfbf7 !important;
+    border-right: none !important;
+}
+
+/* 탭 바 배경 및 경계선 정리 */
+.workspace-tab-header-container {
+    background-color: #fdfbf7 !important;
+    border-bottom: none !important;
+}
+
+/* 상단 타이틀바(창 제목 부분) 정리 */
+.titlebar {
+    background-color: #fdfbf7 !important;
+}
+
+/* 에디터와 사이드바 사이의 미세한 구분선 제거 */
+.workspace-leaf-resize-handle {
+    background-color: transparent !important;
+    width: 0px !important;
+}

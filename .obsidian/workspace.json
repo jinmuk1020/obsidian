@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "5fecd4a5800828a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "9677003ceb1535bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cc58a1aaa48fa16",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8437151d568d5b2c",
+    "type": "split",
+    "children": [
+      {
+        "id": "979b44d56c58e119",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d6bcb7aac468b15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "179b006c86ed22a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "06f3450033a161cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227.5
+  },
+  "right": {
+    "id": "d976be42cf1194ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "233260a90bcba932",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95c0ccaa90a99606",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01. Project/무제.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "무제 의 백링크"
+            }
+          },
+          {
+            "id": "becebbf5b2fe1d49",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "3b770b7a1d1b4771",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "12c0ad55a9913aaa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01. Project/무제.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "무제 의 개요"
+            }
+          },
+          {
+            "id": "2f5a24913ed09003",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "dd5eb8f32b2fddfe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02. Knowledge/02-3. 데이터분석/05. 공통 개념/도시 구조.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "도시 구조 의 나가는 링크"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 209.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "6d6bcb7aac468b15",
+  "lastOpenFiles": [
+    "02. Knowledge/컨설팅 및 전략/용어/경영혁신의 패러다임 시프트.md",
+    "02. Knowledge/컨설팅 및 전략/용어/기능별 제휴와 제품스왑 (Functional Alliance & Product Swap).md",
+    "02. Knowledge/컨설팅 및 전략/용어/기업 창의성 관리 (Corporate Creativity).md",
+    "02. Knowledge/컨설팅 및 전략/용어/다세대 제품 전략 (Multi-Generation Product Strategy).md",
+    "02. Knowledge/컨설팅 및 전략/용어/논리적 사고 (Logical Thinking).md",
+    "02. Knowledge/컨설팅 및 전략/용어/내부적 일관성 (Internal Consistency).md",
+    "02. Knowledge/컨설팅 및 전략/용어/디자인 사고 (Design Thinking).md",
+    "02. Knowledge/컨설팅 및 전략/용어/디지털 혁신 컨설팅.md",
+    "02. Knowledge/컨설팅 및 전략/용어/라이선싱 (Licensing).md",
+    "02. Knowledge/컨설팅 및 전략/용어/로직 트리 (Logic Tree).md",
+    "02. Knowledge/컨설팅 및 전략/용어/모순 (Contradiction).md",
+    "02. Knowledge/컨설팅 및 전략/용어/마크업(Markup)과 마진(Margin).md",
+    "02. Knowledge/컨설팅 및 전략/용어/링킹그리드 (Linking Grid).md",
+    "02. Knowledge/컨설팅 및 전략/용어/린 캔버스 (Lean Canvas).md",
+    "02. Knowledge/컨설팅 및 전략/용어/전사적 자원 관리 (ERP).md",
+    "02. Knowledge/컨설팅 및 전략/용어/정보 비대칭 (Information Asymmetry).md",
+    "02. Knowledge/컨설팅 및 전략/용어/정보수집 (Intelligence).md",
+    "02. Knowledge/컨설팅 및 전략/용어/정보전략계획 (ISP).md",
+    "02. Knowledge/컨설팅 및 전략/용어/제4차 산업혁명 (The 4th Industrial Revolution).md",
+    "02. Knowledge/컨설팅 및 전략/용어/제약 이론 (TOC).md",
+    "02. Knowledge/컨설팅 및 전략/용어/제약 이론의 5단계 (Five Focusing Steps).md",
+    "02. Knowledge/컨설팅 및 전략/용어/제품수명주기 (Product Life Cycle, PLC).md",
+    "02. Knowledge/컨설팅 및 전략/용어/조직수명주기 모델 (Organizational Life Cycle).md",
+    "02. Knowledge/컨설팅 및 전략/용어/종속적 사건과 통계적 변동 (Dependent Events & Statistical Fluctuations).md",
+    "02. Knowledge/컨설팅 및 전략/용어/준통합 (Quasi-Vertical Integration).md",
+    "02. Knowledge/컨설팅 및 전략/용어/지식경영과 SECI 모델.md",
+    "루도너러티브 조화 / 부조화 (Ludonarrative Harmony",
+    "루도너러티브 조화 ",
+    "논블로킹 I/O (Non-blocking I",
+    "논블로킹 I",
+    "scripts/rewrite_boilerplate_evergreen_notes_from_sources.py",
+    "tools/notebooklm_source_analysis_export.py",
+    "tools/notebooklm-mcp-check.ps1",
+    "tools",
+    "scripts/rewrite_low_quality_notes_from_pdf_evidence.py",
+    "scripts/rewrite_boilerplate_notes_with_notebooklm.py",
+    "notebooklm_screen3.png",
+    "notebooklm_screen2.png",
+    "notebooklm_screen.png",
+    "무제.canvas",
+    "무제 1.canvas",
+    "무제 2.canvas",
+    "무제 3.canvas",
+    "02. Knowledge/무제.canvas",
+    "01. Project/무제.canvas"
+  ]
+}
