@@ -6,7 +6,6 @@ tags:
  - concept
 ---
 # 물리적 모순 (Physical Contradiction)
-Up: [[_기획 MOC]]
 
 ## 출처
 

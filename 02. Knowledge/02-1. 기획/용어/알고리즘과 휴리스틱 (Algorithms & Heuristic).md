@@ -6,7 +6,6 @@ tags:
  - concept
 ---
 # 알고리즘과 휴리스틱 (Algorithms & Heuristic)
-Up: [[_기획 MOC]]
 
 ## 출처
 

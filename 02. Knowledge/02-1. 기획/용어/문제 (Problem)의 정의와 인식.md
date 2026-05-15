@@ -6,7 +6,6 @@ tags:
  - concept
 ---
 # 문제 (Problem)의 정의와 인식
-Up: [[_기획 MOC]]
 
 ## 출처
 

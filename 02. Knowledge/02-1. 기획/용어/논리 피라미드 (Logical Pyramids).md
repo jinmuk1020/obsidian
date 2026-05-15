@@ -6,7 +6,6 @@ tags:
  - concept
 ---
 # 논리 피라미드 (Logical Pyramids)
-Up: [[_기획 MOC]]
 
 ## 출처
 

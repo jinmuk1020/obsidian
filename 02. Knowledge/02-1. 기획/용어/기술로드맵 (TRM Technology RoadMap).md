@@ -11,7 +11,6 @@ tags:
   - concept
 ---
 # 기술로드맵 (TRM: Technology RoadMap)
-Up: [[_기획 MOC]]
 
 ## 출처
 

@@ -6,7 +6,6 @@ tags:
  - concept
 ---
 # Kano 모델 (Kano Model)
-Up: [[_기획 MOC]]
 
 ## 출처
 

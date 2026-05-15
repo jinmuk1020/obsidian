@@ -6,7 +6,6 @@ tags:
  - concept
 ---
 # 5Whys 기법
-Up: [[_기획 MOC]]
 
 ## 출처
 
