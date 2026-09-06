@@ -259,6 +259,17 @@ body[data-slug="projects/dungeon-sweeper-floppy"] article {
     color: var(--secondary);
   }
 
+  mark {
+    background: linear-gradient(
+      transparent 48%,
+      rgba(26, 54, 93, 0.14) 48%,
+      rgba(26, 54, 93, 0.14) 92%,
+      transparent 92%
+    );
+    color: var(--text-normal);
+    padding: 0 0.08em;
+  }
+
   blockquote {
     background: rgba(27, 77, 62, 0.055);
     border-left-color: var(--tertiary);
