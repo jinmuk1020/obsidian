@@ -1,7 +1,91 @@
 @use "./variables.scss" as *;
 
+/*
+ * Obsidian's Minimal theme, translated for Quartz.
+ * Keep the warm paper surface seamless and let hierarchy come from type,
+ * spacing, and restrained navy accents instead of separate panels.
+ */
+:root[saved-theme="light"] {
+  --inline-title-color: #1a1a1a;
+  --portfolio-rule: rgba(26, 54, 93, 0.16);
+  --portfolio-soft: rgba(26, 54, 93, 0.06);
+  --portfolio-shadow: rgba(26, 36, 48, 0.1);
+}
+
+:root[saved-theme="dark"] {
+  --inline-title-color: #ebebec;
+  --portfolio-rule: rgba(205, 214, 225, 0.18);
+  --portfolio-soft: rgba(205, 214, 225, 0.07);
+  --portfolio-shadow: rgba(0, 0, 0, 0.28);
+}
+
 body {
   letter-spacing: -0.015em;
+}
+
+body,
+.page,
+.page > #quartz-body,
+.page > #quartz-body > .sidebar,
+.page > #quartz-body > .center,
+.page > #quartz-body > footer,
+.explorer .explorer-content {
+  background: var(--light) !important;
+}
+
+.page > #quartz-body {
+  column-gap: clamp(1.5rem, 3vw, 3.5rem);
+  padding-top: 3rem;
+}
+
+.page > #quartz-body > .sidebar {
+  border: 0 !important;
+}
+
+.page > #quartz-body .page-header {
+  margin-top: 1rem;
+}
+
+.page-title a {
+  color: var(--secondary);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.breadcrumb-container {
+  color: var(--gray) !important;
+  margin-top: 0 !important;
+  font-size: 0.78rem;
+}
+
+.breadcrumb-container .breadcrumb-element > a {
+  color: var(--gray) !important;
+}
+
+h1.article-title {
+  color: var(--dark) !important;
+  font-size: clamp(1.9rem, 2.5vw, 2.45rem) !important;
+  font-weight: 700 !important;
+  line-height: 1.22;
+  letter-spacing: -0.055em;
+  margin: 0.75rem 0 0.7rem;
+  max-width: none;
+}
+
+:root[saved-theme="light"] body[data-slug] h1.article-title {
+  color: #1a1a1a !important;
+}
+
+:root[saved-theme="dark"] body[data-slug] h1.article-title {
+  color: #ebebec !important;
+}
+
+.content-meta {
+  color: var(--gray);
+  border-bottom: 1px solid var(--portfolio-rule);
+  margin: 0 0 2rem;
+  padding-bottom: 1rem;
+  font-size: 0.8rem;
 }
 
 article {
@@ -23,5 +107,92 @@ article {
     letter-spacing: -0.03em;
     margin-top: 1.8em;
     margin-bottom: 0.8em;
+  }
+
+  h2 {
+    border-bottom: 1px solid var(--portfolio-rule);
+    padding-bottom: 0.35rem;
+  }
+
+  h3 {
+    color: var(--secondary);
+  }
+
+  blockquote {
+    background: var(--portfolio-soft);
+    border-left: 3px solid var(--secondary);
+    margin: 1.8rem 0;
+    padding: 0.8rem 1.15rem;
+
+    p {
+      margin: 0.45rem 0;
+      text-align: left;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin: 1.5rem 0 2rem;
+    border: 1px solid var(--portfolio-rule);
+    box-shadow: none;
+  }
+
+  th {
+    background: var(--portfolio-soft);
+    color: var(--secondary);
+  }
+
+  th,
+  td {
+    border-color: var(--portfolio-rule);
+    padding: 0.65rem 0.8rem;
+  }
+
+  img {
+    border: 1px solid var(--portfolio-rule);
+    border-radius: 3px;
+    box-shadow: 0 10px 28px var(--portfolio-shadow);
+    margin: 1.75rem auto;
+  }
+
+  a[href*="dungeonsweeperfloppy.zip"] {
+    display: inline-block;
+    background: var(--secondary);
+    color: var(--light);
+    border-radius: 3px;
+    padding: 0.6rem 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+.sidebar h3,
+.sidebar h2 {
+  color: var(--dark);
+  letter-spacing: -0.025em;
+}
+
+.sidebar li,
+.sidebar p,
+.sidebar a {
+  font-size: 0.88rem;
+}
+
+@media all and ($mobile) {
+  .page > #quartz-body {
+    padding-top: 1.25rem;
+  }
+
+  h1.article-title {
+    font-size: 1.7rem !important;
+    max-width: none;
+  }
+
+  article p {
+    text-align: left;
+  }
+
+  article table {
+    font-size: 0.82rem;
   }
 }
