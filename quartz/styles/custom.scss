@@ -259,7 +259,8 @@ body[data-slug="projects/dungeon-sweeper-floppy"] article {
     color: var(--secondary);
   }
 
-  mark {
+  mark,
+  .text-highlight {
     background: linear-gradient(
       transparent 48%,
       rgba(26, 54, 93, 0.14) 48%,
