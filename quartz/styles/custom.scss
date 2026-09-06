@@ -242,6 +242,38 @@ article {
   }
 }
 
+// The portfolio post uses the Obsidian palette semantically: navy marks
+// section structure and emphasis, while green is reserved for conclusions
+// and navigational cues. Keep the main article title in the neutral ink color.
+body[data-slug="projects/dungeon-sweeper-floppy"] article {
+  h2 {
+    color: var(--secondary);
+    border-bottom-color: rgba(26, 54, 93, 0.22);
+  }
+
+  h3 {
+    color: var(--tertiary);
+  }
+
+  strong {
+    color: var(--secondary);
+  }
+
+  blockquote {
+    background: rgba(27, 77, 62, 0.055);
+    border-left-color: var(--tertiary);
+
+    p,
+    strong {
+      color: var(--tertiary) !important;
+    }
+  }
+
+  li::marker {
+    color: var(--tertiary);
+  }
+}
+
 .sidebar h3,
 .sidebar h2 {
   color: var(--dark);
