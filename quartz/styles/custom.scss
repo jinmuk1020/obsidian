@@ -5,22 +5,91 @@
  * Keep the warm paper surface seamless and let hierarchy come from type,
  * spacing, and restrained navy accents instead of separate panels.
  */
-:root[saved-theme="light"] {
+:root[saved-theme="light"],
+:root[saved-theme="dark"] {
+  --light: #fdfbf7;
+  --lightgray: #f5f2ed;
+  --gray: #727272;
+  --darkgray: #1a1a1a;
+  --dark: #1a1a1a;
+  --secondary: #1a365d;
+  --tertiary: #1b4d3e;
+  --highlight: rgba(26, 54, 93, 0.05);
+  --text-normal: #1a1a1a;
+  --text-muted: #727272;
+  --text-faint: #b0b0b0;
+  --text-bold: #1a365d;
+  --text-italic: #1a1a1a;
+  --text-accent: #023020;
+  --text-accent-hover: #1b4d3e;
+  --link-color: #1a365d;
+  --link-color-hover: #1b4d3e;
+  --bold-color: #1a365d;
+  --background-primary: #fdfbf7;
+  --background-secondary: #fdfbf7;
+  --background-secondary-alt: #fdfbf7;
+  --nav-item-background-active: #f5f2ed;
+  --divider-color: transparent;
+  --tx1: #1a1a1a;
+  --tx2: #727272;
+  --tx3: #b0b0b0;
+  --ui1: #fdfbf7;
+  --ui2: #d1d1d1;
+  --ui3: #1a365d;
+  --ax1: #023020;
+  --ax2: #1b4d3e;
+  --ax3: #023020;
+  --bodyFont: "IBM Plex Mono", monospace;
+  --headerFont: "IBM Plex Mono", monospace;
+  --codeFont: "IBM Plex Mono", monospace;
+  --font-default: var(--bodyFont);
+  --font-text: var(--bodyFont);
+  --font-text-theme: var(--bodyFont);
+  --font-interface: var(--bodyFont);
+  --font-interface-theme: var(--bodyFont);
+  --font-editor: var(--bodyFont);
+  --font-editor-theme: var(--bodyFont);
+  --font-monospace: var(--codeFont);
   --inline-title-color: #1a1a1a;
   --portfolio-rule: rgba(26, 54, 93, 0.16);
   --portfolio-soft: rgba(26, 54, 93, 0.06);
   --portfolio-shadow: rgba(26, 36, 48, 0.1);
 }
 
-:root[saved-theme="dark"] {
-  --inline-title-color: #ebebec;
-  --portfolio-rule: rgba(205, 214, 225, 0.18);
-  --portfolio-soft: rgba(205, 214, 225, 0.07);
-  --portfolio-shadow: rgba(0, 0, 0, 0.28);
+body {
+  color: var(--text-normal);
+  font-family: var(--bodyFont) !important;
+  letter-spacing: -0.015em;
 }
 
-body {
-  letter-spacing: -0.015em;
+strong {
+  color: var(--bold-color);
+  font-weight: 500;
+}
+
+em {
+  color: var(--text-italic);
+}
+
+button,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headerFont) !important;
+}
+
+body a,
+.breadcrumb-container .breadcrumb-element > a {
+  color: var(--link-color) !important;
+}
+
+body a:hover,
+.breadcrumb-container .breadcrumb-element > a:hover {
+  color: var(--link-color-hover) !important;
 }
 
 body,
@@ -77,7 +146,7 @@ h1.article-title {
 }
 
 :root[saved-theme="dark"] body[data-slug] h1.article-title {
-  color: #ebebec !important;
+  color: #1a1a1a !important;
 }
 
 .content-meta {
@@ -89,12 +158,19 @@ h1.article-title {
 }
 
 article {
+  color: var(--text-normal);
   line-height: 1.75;
   word-break: keep-all;
 
   p {
+    color: var(--text-normal) !important;
     margin-block: 1.25rem;
     text-align: justify;
+  }
+
+  li,
+  td {
+    color: var(--text-normal) !important;
   }
 
   h1,

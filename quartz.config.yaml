@@ -23,23 +23,23 @@ configuration:
       lightMode:
         light: "#fdfbf7"
         lightgray: "#f5f2ed"
-        gray: "#888888"
-        darkgray: "#2d2d2d"
+        gray: "#727272"
+        darkgray: "#1a1a1a"
         dark: "#1a1a1a"
         secondary: "#1a365d"
-        tertiary: "#bc002d"
+        tertiary: "#1b4d3e"
         highlight: rgba(26, 54, 93, 0.05)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#fdfbf7"
+        lightgray: "#f5f2ed"
+        gray: "#727272"
+        darkgray: "#1a1a1a"
+        dark: "#1a1a1a"
+        secondary: "#1a365d"
+        tertiary: "#1b4d3e"
+        highlight: rgba(26, 54, 93, 0.05)
+        textHighlight: "#fff23688"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -113,8 +113,33 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: default
+      theme: minimal
       mode: both
+      themeFonts: false
+      styleSettings:
+        "minimal-style@@bg2@@dark": "#FDFBF7"
+        "minimal-style@@bg1@@light": "#FDFBF7"
+        "minimal-style@@bg2@@light": "#F5F2ED"
+        "minimal-style@@base@@dark": "#FFFFFF"
+        "minimal-style@@base@@light": "#000000"
+        "minimal-style@@bg1@@dark": "#FDFBF7"
+        "minimal-style@@tx1@@dark": "#1A1A1A"
+        "minimal-style@@tx2@@dark": "#727272"
+        "minimal-style@@tx3@@dark": "#B0B0B0"
+        "minimal-style@@bold-color@@dark": "#000000"
+        "minimal-style@@italic-color@@dark": "#1A1A1A"
+        "minimal-style@@text-formatting@@dark": "#E0E0E0"
+        "minimal-style@@bold-modifier": 500
+        "minimal-style@@p-spacing": "2rem"
+        "minimal-style@@heading-spacing": "2.5em"
+        "minimal-style@@bg3@@dark": "#F5F2ED"
+        "minimal-style@@ui1@@dark": "#FDFBF7"
+        "minimal-style@@ui2@@dark": "#D1D1D1"
+        "minimal-style@@ui3@@dark": "#1A365D"
+        "minimal-style@@ax1@@dark": "#023020"
+        "minimal-style@@ax2@@dark": "#1B4D3E"
+        "minimal-style@@ax3@@dark": "#023020"
+        "minimal-style@@sp1@@dark": "#FFFFFF"
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
